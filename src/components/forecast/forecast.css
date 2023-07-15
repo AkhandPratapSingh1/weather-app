@@ -1,0 +1,93 @@
+/* Forecast Component */
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 10px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.icon-small {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.day {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.description {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.min-max {
+  font-weight: 600;
+}
+
+.card-details {
+  padding: 10px;
+}
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  align-items: center;
+}
+
+.daily-details-grid-item label {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+/* Colors for each forecast day */
+
+.forecast-day-1 {
+  background-color: #FF4136; /* Red */
+}
+
+.forecast-day-2 {
+  background-color: #FF851B; /* Orange */
+}
+
+.forecast-day-3 {
+  background-color: #FFDC00; /* Yellow */
+}
+
+.forecast-day-4 {
+  background-color: #2ECC40; /* Green */
+}
+
+.forecast-day-5 {
+  background-color: #0074D9; /* Blue */
+}
+
+.forecast-day-6 {
+  background-color: #B10DC9; /* Purple */
+}
+
+.forecast-day-7 {
+  background-color: #F012BE; /* Magenta */
+}

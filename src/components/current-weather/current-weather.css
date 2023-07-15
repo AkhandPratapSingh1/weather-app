@@ -1,0 +1,78 @@
+.current-weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  background-color: #333;
+  margin: 20px auto;
+  padding: 0 20px 20px;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+.current-weather .top,
+.current-weather .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.current-weather .city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.current-weather .weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.current-weather .weather-icon {
+  width: 100px;
+}
+
+.current-weather .temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.current-weather .details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.current-weather .parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-weather .parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.current-weather .parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.current-weather .parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
+
+/* Search Component */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
